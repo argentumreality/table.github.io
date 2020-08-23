@@ -74,7 +74,7 @@
   }
 
   #annotation{
-    background-color: #888888;
+    background-color: #222a37;
     position: absolute;
     font-family: Gothic A1, sans-serif;
     transform: translate(2px, 2px);
@@ -88,10 +88,13 @@
         }
       </style>
       <div class="lol">
-        <img src="glb/logo.png">
+        <img src="glb/Logo.svg">
       </div>
       <model-viewer position="0 0 0" src="glb/table_v.glb" ar ar-modes="webxr quick-look"
       ar-scale="auto" auto-rotate camera-controls alt="House" ios-src="glb/table_v.usdz">
+        slot="ar-button">
+          ОТКРЫТЬ ПРОСМОТР AR
+      </button>
   <button slot="hotspot-hand" data-position="-0.3 0.7 0.6" data-normal="-0.73 1 0.69">
     <div id="annotation">USB-hub</div>
   </button>
